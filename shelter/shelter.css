@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.container-our-pets {
+    background-color: #FFFFFF;
+    padding-bottom: 60px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -203,7 +208,8 @@ li {
 }
 
 .arrow-left,
-.arrow-right {
+.arrow-right,
+.arrow {
     width: 52px;
     height: 52px;
     border-radius: 50px;
@@ -387,6 +393,7 @@ button {
 .in-addition {
     padding-top: 80px;
     padding-bottom: 100px;
+    background-color: #F6F6F6;
 }
 
 .contacts {
@@ -432,4 +439,28 @@ button {
     flex-direction: column;
     gap: 42px;
     align-items: flex-start;
+}
+
+.our-pets-slider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 1200px;
+    height: 930px;
+    top: 135px;
+}
+
+.color-black {
+    color: black !important;
+}
+
+.color-black-mega * {
+    color: black !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 45px;
 }
