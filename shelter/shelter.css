@@ -464,3 +464,11 @@ button {
     gap: 20px;
     padding-top: 45px;
 }
+
+.our-friends__conteiner>div{
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.our-friends__conteiner>div:hover {
+    transform: scale(1.02);
+}
