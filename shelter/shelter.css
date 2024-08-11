@@ -283,6 +283,7 @@ button {
     display: flex;
     align-items: center;
     margin-top: 60px;
+    border: none;
 }
 
 .our-friends__conteiner {
@@ -344,6 +345,7 @@ button {
     font-weight: 400;
     line-height: 18px;
     text-align: left;
+    color: #B2B2B2;
 }
 
 .information,
@@ -463,4 +465,8 @@ button {
     justify-content: center;
     gap: 20px;
     padding-top: 45px;
+}
+
+.burger-menu-button {
+    display: none;
 }

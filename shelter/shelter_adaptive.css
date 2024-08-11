@@ -1,6 +1,269 @@
 @media (max-width: 1279px) {
+    .wrapper {
+        max-width: 708px;
+    }
 
+    .notOnlyDescriptionRight img {
+        max-width: 569px;
+        max-height: 593px;
+
+    }
+
+    .header {
+        width: auto;
+    }
+
+    .notOnlyDescription {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+
+    }
+
+    .notOnlyDescriptionRight {
+        align-self: flex-end;
+    }
+
+    .notOnlyDescriptionLeft {
+        padding-top: 60px;
+    }
+
+    .aboutDescription {
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .aboutDescriptionRight {
+        width: 430px;
+    }
+
+    .aboutDescriptionLeft {
+        padding-left: 0;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        flex-shrink: 0;
+    }
+
+    .woody {
+        display: none;
+    }
+
+    .our-friends__conteiner {
+        gap: 40px;
+
+    }
+
+    .arrow-left {
+        margin-right: 12px;
+    }
+
+    .arrow-right {
+        margin-left: 12px;
+    }
+
+    .our-friends__slider-pets {
+        gap: 0;
+    }
+
+    .list-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 39px;
+        margin-right: 39px;
+        gap: 55px;
+    }
+
+    .donation {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-puppy {
+        margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-@media (max-width: 767px) {
 
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: 300px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .burger-menu-button {
+        display: block;
+        width: 30px;
+        height: 22px;
+        transform: translateY(16px);
+    }
+
+    .header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .h2 {
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .notOnlyDescriptionLeft {
+        align-items: center;
+    }
+
+    .paragraph-1 br {
+        display: none;
+    }
+
+    .notOnlyDescriptionRight img {
+        width: 260px;
+        height: 271px;
+        margin-left: 40px;
+    }
+
+    .aboutDescriptionRight {
+        width: auto;
+        margin-top: 28px;
+    }
+
+    .aboutDescription {
+        padding: 0;
+        gap: 42px;
+    }
+
+    .aboutDescriptionRight br {
+        display: none;
+    }
+
+    .h3 {
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .paragraph-2 {
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .aboutDescriptionLeft img {
+        width: 260px;
+        height: 353px;
+    }
+
+    .woody,
+    .jennifer {
+        display: none;
+    }
+
+    .our-friends__conteiner {
+        order: -1;
+        justify-content: center;
+    }
+
+    .our-friends__slider-pets {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .list-card {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        gap: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .h4 {
+
+        font-family: Georgia;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .card img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .number-text {
+        font-family: Georgia;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16.5px;
+        letter-spacing: 0.06em;
+        text-align: left;
+    }
+
+    .text-bank-account {
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .donation-description br {
+        display: none;
+    }
+
+    .information {
+        align-items: center;
+    }
+
+    .donation-description {
+        text-align: justify;
+    }
+
+    .donation-dog img {
+        width: 260px;
+    }
+
+    .in-addition {
+        padding-bottom: 42px;
+    }
+
+    .feedback h3 br {
+        display: none;
+    }
+
+    .footer-puppy img {
+        width: 260px;
+    }
+
+    .footer-puppy {
+        margin-top: 20px;
+    }
 }
