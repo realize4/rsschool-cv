@@ -219,7 +219,12 @@ li {
 
 .katrine,
 .jennifer,
-.woody {
+.woody,
+.sophia,
+.timmy,
+.charly,
+.scarlett,
+.freddie {
     display: flex;
     flex-direction: column;
     align-items: center;
