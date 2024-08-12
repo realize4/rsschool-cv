@@ -219,7 +219,12 @@ li {
 
 .katrine,
 .jennifer,
-.woody {
+.woody,
+.sophia,
+.timmy,
+.charly,
+.scarlett,
+.freddie {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,6 +475,9 @@ button {
 
 .burger-menu-button {
     display: none;
+
+}
+
 }
 .our-friends__conteiner>div,
 .our-pets-slider>div {
@@ -492,3 +500,4 @@ html {
     scroll-behavior: smooth;
 
 }
+
