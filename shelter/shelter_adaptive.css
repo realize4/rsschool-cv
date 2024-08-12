@@ -94,6 +94,21 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .adaptive-our-pets768 {
+        display: none;
+    }
+
+    .adaptive-our-pets-woody-active768 {
+        display: flex;
+    }
+
+    .our-pets-slider {
+        justify-content: center;
+        width: auto;
+        height: auto;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -266,4 +281,36 @@
     .footer-puppy {
         margin-top: 20px;
     }
+
+    .arrow {
+        flex-shrink: 0;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    /*Костыль*/
+    .adaptive-our-pets320 {
+        display: none;
+    }
+
+    .adaptive-our-pets-active320 {
+        display: flex;
+    }
+
+    .our-pets-slider {
+        width: auto;
+        height: auto;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .our-friends {
+        padding-top: 42px;
+    }
+
+
+
+
 }
