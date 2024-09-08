@@ -1,172 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shelter.css">
-    <link rel="stylesheet" href="shelter_adaptive.css">
-
+<html id="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shelter.css" />
+    <link rel="stylesheet" href="shelter_adaptive.css" />
+    <link rel="stylesheet" href="burger_menu.css" />
     <title>Document</title>
-    <link rel="icon" href="./img/icons8-favicon-16.png">
-</head>
+    <link rel="icon" href="./img/icons8-favicon-16.png" />
+  </head>
 
-<body class="body">
+  <body class="body">
     <div class="container-our-pets">
-        <div class="wrapper">
-            <header class="header">
-                <div class="logo">
-                    <div class="logoTitle">
-                        <h1 class="logoName color-black">Cozy House
-                        </h1>
-                        <div class="logoDescription color-black">
-                            Shelter for pets in Boston
-                        </div>
-                    </div>
-
-                </div>
-                <nav class="menu">
-                    <ul class="list color-black-mega">
-                        <li class="listItem"><a href="./shelter.html" class="list-item__link">About the shelter</a></li>
-                        <li class="listItem"><a href="#" class="list-item__link list-item__link--active"
-                                class="list-item__link">Our pets</a></li>
-                        <li class="listItem"><a href="#help" class="list-item__link">Help the shelter</a></li>
-                        <li class="listItem"><a href="#footer" class="list-item__link">Contacts</a></li>
-                    </ul>
-                    <img class="burger-menu-button" src="./img/Burger.png" alt="menu">
-                </nav>
-            </header>
-        </div>
+      <div class="wrapper">
+        <header class="header">
+          <div class="logo">
+            <div class="logoTitle">
+              <h1 class="logoName color-black">Cozy House</h1>
+              <div class="logoDescription color-black">
+                Shelter for pets in Boston
+              </div>
+            </div>
+          </div>
+          <nav class="menu">
+            <ul class="list color-black-mega">
+              <li class="listItem">
+                <a href="./shelter.html" class="list-item__link"
+                  >About the shelter</a
+                >
+              </li>
+              <li class="listItem">
+                <a
+                  href="#"
+                  class="list-item__link list-item__link--active"
+                  class="list-item__link"
+                  >Our pets</a
+                >
+              </li>
+              <li class="listItem">
+                <a href="#help" class="list-item__link">Help the shelter</a>
+              </li>
+              <li class="listItem">
+                <a href="#footer" class="list-item__link">Contacts</a>
+              </li>
+            </ul>
+            <img
+              id="burger-menu-button"
+              class="burger-menu-button"
+              src="./img/Burger.png"
+              alt="menu"
+            />
+          </nav>
+        </header>
+      </div>
     </div>
 
     <main class="main">
-        <div class="our-friends">
-            <div class="wrapper">
-                <div class="our-friends__description">
-                    <h3 class="h3 text-center">Our friends who<br>are looking for a house</h3>
-                </div>
-                <div class="our-pets-slider">
-                    <div class="katrine">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-katrine.svg" alt="photo-katrine">
-                        </div>
-                        <div class="our-friends__name">Katrine</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="jennifer adaptive-our-pets-active320 adaptive-our-pets-active768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-jennifer.svg" alt="photo-jennifer">
-                        </div>
-                        <div class="our-friends__name">Jennifer</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="woody adaptive-our-pets-active320 adaptive-our-pets-woody-active768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-woody.svg" alt="photo-woody">
-                        </div>
-                        <div class="our-friends__name">Woody</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="sophia adaptive-our-pets320 adaptive-our-pets-active768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-katrine (1).svg" alt="photo-sophia">
-                        </div>
-                        <div class="our-friends__name">Sophia</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="timmy adaptive-our-pets320 adaptive-our-pets-active768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-timmy.svg" alt="photo-timmy">
-                        </div>
-                        <div class="our-friends__name">Timmy</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="charly adaptive-our-pets320 adaptive-our-pets-active768">
-                        <div class="our-friends__photo ">
-                            <img src="./img/pets-charly.svg" alt="photo-charly">
-                        </div>
-                        <div class="our-friends__name">Charly</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="scarlett adaptive-our-pets320 adaptive-our-pets768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-scarlet.svg" alt="photo-scarlett">
-                        </div>
-                        <div class="our-friends__name">Scarlett</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-                    </div>
-                    <div class="freddie adaptive-our-pets320 adaptive-our-pets768">
-                        <div class="our-friends__photo">
-                            <img src="./img/pets-katrine.png" alt="photo-freddie">
-                        </div>
-                        <div class="our-friends__name">Freddie</div>
-                        <button class="button-learn-more button-learn-more__text">Learn more
-                        </button>
-
-                    </div>
-
-
-
-
-                </div>
-                <div class="buttons">
-                    <button disabled class="arrow">&lt;&lt;</button>
-                    <button disabled class="arrow">&lt;</button>
-                    <button class="arrow">1</button>
-                    <button class="arrow">&gt;</button>
-                    <button class="arrow">&gt;&gt;</button>
-                </div>
+      <div class="our-friends">
+        <div class="wrapper">
+          <div class="our-friends__description">
+            <h3 class="h3 text-center">
+              Our friends who<br />are looking for a house
+            </h3>
+          </div>
+          <div class="our-pets-slider">
+            <div class="card-pets">
+              <div class="our-friends__photo">
+                <img src="./img/pets-katrine.svg" alt="photo-katrine" />
+              </div>
+              <div class="our-friends__name">Katrine</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
             </div>
+            <div
+              class="card-pets adaptive-our-pets-active320 adaptive-our-pets-active768"
+            >
+              <div class="our-friends__photo">
+                <img src="./img/pets-jennifer.svg" alt="photo-jennifer" />
+              </div>
+              <div class="our-friends__name">Jennifer</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div
+              class="card-pets adaptive-our-pets-active320 adaptive-our-pets-woody-active768"
+            >
+              <div class="our-friends__photo">
+                <img src="./img/pets-woody.svg" alt="photo-woody" />
+              </div>
+              <div class="our-friends__name">Woody</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div
+              class="card-pets adaptive-our-pets320 adaptive-our-pets-active768"
+            >
+              <div class="our-friends__photo">
+                <img src="./img/pets-katrine (1).svg" alt="photo-sophia" />
+              </div>
+              <div class="our-friends__name">Sophia</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div class="card-pets adaptive-our-pets320 adaptive-our-pets-active768">
+              <div class="our-friends__photo">
+                <img src="./img/pets-timmy.svg" alt="photo-timmy" />
+              </div>
+              <div class="our-friends__name">Timmy</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div
+              class="card-pets adaptive-our-pets320 adaptive-our-pets-active768"
+            >
+              <div class="our-friends__photo">
+                <img src="./img/pets-charly.svg" alt="photo-charly" />
+              </div>
+              <div class="our-friends__name">Charly</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div class="card-pets adaptive-our-pets320 adaptive-our-pets768">
+              <div class="our-friends__photo">
+                <img src="./img/pets-scarlet.svg" alt="photo-scarlett" />
+              </div>
+              <div class="our-friends__name">Scarlett</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+            <div class="card-pets adaptive-our-pets320 adaptive-our-pets768">
+              <div class="our-friends__photo">
+                <img src="./img/pets-katrine.png" alt="photo-freddie" />
+              </div>
+              <div class="our-friends__name">Freddie</div>
+              <button class="button-learn-more button-learn-more__text">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="buttons">
+            <button disabled class="arrow">&lt;&lt;</button>
+            <button disabled class="arrow">&lt;</button>
+            <button class="arrow">1</button>
+            <button class="arrow">&gt;</button>
+            <button class="arrow">&gt;&gt;</button>
+          </div>
         </div>
-
-
+      </div>
     </main>
     <div class="footer" id="footer">
-        <div class="wrapper">
-            <div class="contacts">
-                <div class="feedback">
-                    <h3 class="h3 color-white">For questions <br>and suggestions</h3>
-                    <div class="feedback-item">
-                        <div class="icon">
-                            <img src="./img/icon-email.svg" alt="icon-email">
-                        </div>
-                        <div class="feedback-text">email@shelter.com</div>
-                    </div>
-                    <div class="feedback-item">
-                        <div class="icon">
-                            <img src="./img/icon-phone.svg" alt="icon-phone">
-                        </div>
-                        <div class="feedback-text">+13 674 567 75 54</div>
-                    </div>
-                </div>
-                <div class="feedback">
-                    <h3 class="h3 color-white">We are waiting <br>for your visit</h3>
-                    <div class="feedback-item">
-                        <div class="icon">
-                            <img src="./img/icon-marker.svg" alt="icon-marker">
-                        </div>
-                        <div class="feedback-text">1 Central Street, Boston <br>(entrance from the store)</div>
-                    </div>
-                    <div class="feedback-item">
-                        <div class="icon">
-                            <img src="./img/icon-marker.svg" alt="icon-marker">
-                        </div>
-                        <div class="feedback-text">18 South Park, London</div>
-                    </div>
-                </div>
-                <div class="footer-puppy">
-                    <img src="./img/footer-puppy.svg" alt="footer-puppy">
-                </div>
+      <div class="wrapper">
+        <div class="contacts">
+          <div class="feedback">
+            <h3 class="h3 color-white">For questions <br />and suggestions</h3>
+            <div class="feedback-item">
+              <div class="icon">
+                <img src="./img/icon-email.svg" alt="icon-email" />
+              </div>
+              <div class="feedback-text">email@shelter.com</div>
             </div>
+            <div class="feedback-item">
+              <div class="icon">
+                <img src="./img/icon-phone.svg" alt="icon-phone" />
+              </div>
+              <div class="feedback-text">+13 674 567 75 54</div>
+            </div>
+          </div>
+          <div class="feedback">
+            <h3 class="h3 color-white">We are waiting <br />for your visit</h3>
+            <div class="feedback-item">
+              <div class="icon">
+                <img src="./img/icon-marker.svg" alt="icon-marker" />
+              </div>
+              <div class="feedback-text">
+                1 Central Street, Boston <br />(entrance from the store)
+              </div>
+            </div>
+            <div class="feedback-item">
+              <div class="icon">
+                <img src="./img/icon-marker.svg" alt="icon-marker" />
+              </div>
+              <div class="feedback-text">18 South Park, London</div>
+            </div>
+          </div>
+          <div class="footer-puppy">
+            <img src="./img/footer-puppy.svg" alt="footer-puppy" />
+          </div>
         </div>
+      </div>
     </div>
-</body>
-
+    <div class="burger-conteiner" id="burger-conteiner" style="display: none">
+      <div id="burger-menu" class="burger-menu">
+        <header class="burger-menu-reverse">
+          <img
+            id="burger-close"
+            src="./img/Burger.png"
+            alt="burger-menu-button"
+            class="burger-reverse"
+          />
+        </header>
+        <div class="menu">
+          <ul class="list-item-reverse">
+            <li class="listItem__text__reverse">
+              <a href="./shelter.html" class="list-item__link"
+                >About the shelter</a
+              >
+            </li>
+            <li class="listItem__text__reverse">
+              <a class="list-item__link list-item__link--active">Our pets</a>
+            </li>
+            <li class="listItem__text__reverse">
+              <a href="#help" class="list-item__link">Help the shelter</a>
+            </li>
+            <li class="listItem__text__reverse">
+              <a href="#footer" class="list-item__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="burger-menu.js"></script>
+  </body>
 </html>

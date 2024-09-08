@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.burger-menu {
+  width: 320px;
+  background: #292929;
+}
+
+.burger-menu-reverse {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 158px;
+  display: flex;
+  justify-content: right;
+}
+
+.burger-reverse {
+  transform: rotate(90deg);
+}
+
+.list-item-reverse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.listItem__text__reverse {
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 51.2px;
+  text-align: center;
+}
+
+.burger-conteiner {
+  background: #29292999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
