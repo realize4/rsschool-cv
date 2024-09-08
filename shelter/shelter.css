@@ -217,14 +217,7 @@ li {
 }
 
 
-.katrine,
-.jennifer,
-.woody,
-.sophia,
-.timmy,
-.charly,
-.scarlett,
-.freddie {
+.card-pets {
     display: flex;
     flex-direction: column;
     align-items: center;
