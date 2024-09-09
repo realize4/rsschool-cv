@@ -288,6 +288,8 @@ button {
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    gap: 30px;
+    justify-content: center
 }
 
 .our-friends {
@@ -471,7 +473,6 @@ button {
 
 }
 
-}
 .our-friends__conteiner>div,
 .our-pets-slider>div {
     transition: all .3s linear;
